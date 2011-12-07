@@ -1,0 +1,11 @@
+{
+        "name": "WeekCheker",
+        "version" : "1.0",
+        "description": "The tool which computes a day of the week",
+        "browser_action":{
+                "default_icon": "icon.png",
+                "popup":"popup.html"
+        },
+        "permissions":[
+                ]
+}

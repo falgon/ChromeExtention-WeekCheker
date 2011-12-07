@@ -1,0 +1,32 @@
+<script language="JavaScript">
+        <!--
+        function chkForm()
+        {
+                var week=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+                
+                var num=new Array(
+                document.zeller.zeller_year.value,
+                document.zeller.zeller_month.value,
+                document.zeller.zeller_day.value);
+
+                if(num[0]>9999 || num[1]>13 || num[2]>36){
+                        alert("YearMAX: 9999\nMonthMAX: 12\nDayMAX: 35");
+                }else{
+                        var days=new Array(1);
+                        for(var i=0; days+=num[i],i<2; i++){
+                                days+="/";
+                        }
+                        var d=new Date(days);
+                        alert(week[d.getDay()]);
+                }
+        }
+        //-->
+</script>
+
+<form name="zeller">
+        <img src="a.png"><br>
+        Year: <input type="text" name="zeller_year"><br />
+        Month: <input type="text" name="zeller_month"><br />
+        Day: <input type="text" name="zeller_day"><br />
+        <input type="button" value="Œˆ’è" onClick="chkForm()">
+</form>
