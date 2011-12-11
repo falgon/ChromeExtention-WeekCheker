@@ -1,3 +1,5 @@
-This is Chrome Extention application.
+年、月、日を入れて曜日を算出する有名なアレのクロームエクステンション。
+因みにアルゴリズムはチェラーの公式じゃないです。
 
-WeekChecker is easy Chrome Entention which inputs a year, the moon, and a day and computes a day of the week. 
+クロームエクステンション開発が簡単と色々なところにかいてあったのでテストな感じで作った。
+Chromeにドラックアンドドロップでインストール出来る。
